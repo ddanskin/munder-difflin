@@ -1,0 +1,225 @@
+body {
+    margin: 0;    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 5%;
+}
+#company-name {
+    color: #05c46b;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: flex-end;
+}
+
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav a {
+    color: #485460;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#slideshow-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#slideshow {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#slideshow li {
+    margin: 0;
+    padding: 0;
+}
+
+.slides img {
+    height: 100%;
+    width: 100%;
+}
+
+#text-create{
+    position: absolute;
+    padding: 5%;
+    left: 80%;
+    top: 10%;
+    color: #fff;
+    background-color: rgba(30, 39, 46, .9);
+}
+
+#text-plan{
+    position: absolute;
+    padding: 5%;
+    left: 80%;
+    top: 60%;
+    color: #fff;
+    background-color: rgba(30, 39, 46, .9);
+}
+
+#text-track{
+    position: absolute;
+    padding: 5%;
+    left: 10%;
+    top: 10%;
+    color: #fff;
+    background-color: rgba(30, 39, 46, .9);
+}
+
+#slogan {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    font-size: 48px;
+}
+
+.slides {
+    opacity: 0;
+}
+
+#our-values {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+#shop-now {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 800px;
+    background-image: url("../images/white_paper.jpeg");
+    background-size: auto 1200px;
+    text-align: center;
+}
+
+#shop-now a {
+    text-decoration: none;
+    background-color: rgba(30, 39, 46, .9);
+    font-size: 64px;
+    color: #fff;
+    padding: 4%;
+}
+
+#shop-now a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#our-values {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+#testimonials {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 800px;
+}
+
+#testimonials h2 {
+    align-self: flex-start;
+}
+#reviews-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+}
+
+.reviews{
+    display: flex;
+    background-color: #05c46b;
+    width: 300px;
+    text-align: center;
+    border-radius: 25%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+}
+
+#get-help {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#social-links {
+    display: flex;
+    align-items: flex-end;
+}
+
+#social-links a img {
+    width: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    text-decoration: none;
+    color: #485460; 
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#link-col-1, #link-col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fadeIn {
+    -webkit-animation: fadeIn 600ms forwards;
+    animation: fadeIn 5s forwards;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

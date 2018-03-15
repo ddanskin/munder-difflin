@@ -51,11 +51,13 @@ nav {
     list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 #slideshow li {
     margin: 0;
     padding: 0;
+    position: absolute;
 }
 
 .slides img {
@@ -69,6 +71,7 @@ nav {
     background-color: rgba(30, 39, 46, .9);
     padding: 5%;
 }
+
 #text-create{
     left: 80%;
     top: 10%;
@@ -85,13 +88,25 @@ nav {
 }
 
 #slogan {
-    left: 20%;
-    top: 20%;
-    font-size: 48px;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 100%;
+    left: 30%;
+    top: 60%;
+    font-size: 24px;
 }
 
 .slides {
     opacity: 0;
+    z-index: 1;
+}
+
+.show {
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+    opacity: 1;
+    z-index: 2;
 }
 
 #our-values {

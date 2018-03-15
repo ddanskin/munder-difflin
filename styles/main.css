@@ -54,10 +54,12 @@ nav {
     position: relative;
 }
 
-#slideshow li {
+.slides {
     margin: 0;
     padding: 0;
     position: absolute;
+    opacity: 0;
+    z-index: 1;
 }
 
 .slides img {
@@ -97,11 +99,6 @@ nav {
     font-size: 24px;
 }
 
-.slides {
-    opacity: 0;
-    z-index: 1;
-}
-
 .show {
     -webkit-animation: fadeIn 2s;
     animation: fadeIn 2s;
@@ -117,20 +114,20 @@ nav {
     height: 600px;
 }
 
-#our-values div {
+.values {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#our-values div img {
+.values img {
     width: 65px;
     height: 60px;
     text-align: center;
 }
 
-#our-values div h3 {
+.values h3 {
     text-align: center;
 }
 
@@ -177,7 +174,7 @@ nav {
     height: 300px;
 }
 
-.reviews{
+.reviews {
     display: flex;
     background-color: #05c46b;
     width: 200px;

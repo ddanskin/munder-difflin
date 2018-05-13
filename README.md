@@ -1,9 +1,4 @@
-# munder-difflin
-
-# Project Title 
-Munder Difflin Paper Website
-
-# Motivation
+# Munder Difflin Paper Website
 In this project, I built a sample webpage for a fictitious company called "Munder Difflin Paper".
 Often times, paper companies and office supply type companies follow a similar trend with numerous 
 products splashed across the page. In an effort to break that mold and make the page more exciting, 
